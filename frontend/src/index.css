@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background-color: #06080E;
+  color: #F1F5F9;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  overflow: hidden;
+}
+
+/* Technical dot-grid background for graph canvas */
+.cyber-grid-bg {
+  background-color: #080C16;
+  background-image: radial-gradient(rgba(56, 189, 248, 0.12) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Custom dark scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B0F19;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1E293B;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Monospace font utility for code */
+.font-code {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Glowing text effects */
+.glow-cyan-text {
+  text-shadow: 0 0 12px rgba(0, 242, 254, 0.45);
+}
+
+.glow-violet-text {
+  text-shadow: 0 0 12px rgba(168, 85, 247, 0.45);
+}
+
+.glow-emerald-text {
+  text-shadow: 0 0 12px rgba(16, 185, 129, 0.45);
+}
